@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   //API key
-  const apiKey = "cur_live_cGaWh9YIZOzrDdtt6K5cPDJXqoefH64RJ8q0Wrl7";
+  const apiKey = "{YOUR_API_KEY}";
 
   //Document elements
   var fromCurrency = document.getElementById("from");
