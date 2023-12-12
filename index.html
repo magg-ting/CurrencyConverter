@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Magg Lui" />
+    <meta name="description" content="Currency Converter" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <title>COMP1073 | Assignment 4</title>
+</head>
+<body>
+    <!-- Heading and Student Info -->
+    <header>
+        <h1>Currency Converter</h1>
+        <div class="wrapper">
+            <p>Student Name: Magg Lui</p>
+            <p>SID: 200543030</p>
+            <p>Instructor Name: Sumithra Chandrasekar</p>
+            <p>Date of Submission: Dec 4, 2023</p>
+        </div>
+    </header>
+
+    <!-- Currency Converter -->
+    <main>
+        <div class="convert-wrapper">
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="fa fa-dollar input-group-text"></span>
+                    </div>
+                    <input type="number" id="amount" name="amount" class="form-control" placeholder="0.00" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="from">From</label>
+                <select id="from" name="from" class="custom-select">
+                </select>
+            </div>
+            <div><span class="fa fa-refresh" id="swap"></span></div>
+            <div class="form-group">
+                <label for="to">To</label>
+                <select id="to" name="to" class="custom-select">
+                </select>
+            </div>               
+        </div>
+        <button type="button" class="btn btn-info btn-sm" id="convert">Convert</button>
+        <div class="result-group">
+            <p id="result"></p>
+            <p id="rate"></p>
+        </div>
+    </main>
+
+    <!-- Image Credit -->
+    <footer>
+        <p>
+            <small>
+                Background image by 
+                    <a href="https://designbundles.net/yaspe-art-studio/607483-currency-bills-money-background" title="Background image credit" target="_blank">Yaspe art studio</a> 
+                on DesignBundles.net
+            </small>
+        </p>
+    </footer>
+</body>
+</html>
